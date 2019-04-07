@@ -1,0 +1,108 @@
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: row;
+  background-color: #888888;
+}
+
+#main-right {
+  flex-grow: 6;
+  display: flex;
+  flex-direction: column;
+}
+#main-left {
+  flex-grow: 1;
+  background-color: gold;
+}
+#row1 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: cadetblue;
+}
+#row2 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: cadetblue;
+}
+#row3 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: cadetblue;
+}
+#box1 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box2 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box3 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box4 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box5 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box6 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box7 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box8 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}
+#box9 {
+  width: 25%;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: silver;
+}

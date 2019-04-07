@@ -3,28 +3,46 @@
   display: flex;
   flex-direction: column;
 }
-header {
-  background-color: #225566;
-  display: flex;
-  flex-grow: 1;
-}
+
 main {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: #888888;
   flex-grow: 3;
 }
 footer {
   background-color: #228899;
   flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 .left {
-  width: 200px;
-  height: 200px;
-  background-color: #444444;
+  width: 350px;
+  height: 400px;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .right {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  min-height: 200px;
   background-color: #228899;
+  border-bottom-color: black;
+}
+.right > * {
+  margin: 25px;
+  padding: 1vh;
+  justify-content: space-evenly;
+}
+.search {
+  margin-left: 80%;
+}
+.right > button {
+  background-color: gold;
+  border: black;
 }
